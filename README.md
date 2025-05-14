@@ -7,19 +7,23 @@ Stimulus is an academic desktop app that tracks student marks &amp; analyze cour
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/Stimulus.git
+git clone https://github.com/PranjalSh-10/Stimulus.git
+```
 
 2. Navigate to the project folder
 ```bash
 cd Stimulus
+```
 
 3. Install dependencies
 ```bash
 npm install
+```
 
 4. Run the app
 ```bash
 npm start
+```
 
 <h2>🛠 Tech Stack</h2>
 
