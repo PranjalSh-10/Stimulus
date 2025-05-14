@@ -1,9 +1,6 @@
 <p align="center"><img src="https://socialify.git.ci/PranjalSh-10/Stimulus/image?language=1&name=1&owner=1&theme=Light"></p>
 
-# Stimulus
-Stimulus is an academic desktop app that tracks student marks &amp; analyze course outcomes with this teacher-focused tool.Built with Vanilla JS, Firebase, and Electron. Features Excel imports, dynamic charts, and PDF reports. Designed for educators needing simple, modern grade analysis.
-
-# Installation
+<h2>⚙️ Installation</h2>
 
 1. Clone the repository
 ```bash
@@ -14,13 +11,18 @@ git clone https://github.com/PranjalSh-10/Stimulus.git
 ```bash
 cd Stimulus
 ```
+3. Configure Firebase:
+   
+* Create a new project on Firebase Console
+* In your local project, open resources/firebase-config.js
+* Replace the placeholder configuration with your own Firebase project credentials:
 
-3. Install dependencies
+4. Install dependencies
 ```bash
 npm install
 ```
 
-4. Run the app
+5. Run the app
 ```bash
 npm start
 ```
@@ -34,4 +36,3 @@ npm start
 | Authentication      | Firebase Auth                 |
 | Desktop Runtime     | Electron.js                   |
 | Data Parsing        | SheetJS (XLSX)                |
-| UI Components       | MDL (Material Design Lite)    |
